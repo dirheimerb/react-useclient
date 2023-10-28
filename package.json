@@ -1,6 +1,6 @@
 {
   "name": "react-useclient",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "This is a utility library for React that allows you to add the 'use client'; at the top of client component files.",
   "type": "module",
   "module": "dist/index.js",
@@ -22,7 +22,11 @@
     "test": "jest",
     "typecheck": "tsc --noEmit"
   },
-  "keywords": [],
+  "keywords": [
+    "use client",
+    "react",
+    "react 18"
+  ],
   "author": "Bradley Dirheimer",
   "license": "MTI",
   "devDependencies": {
@@ -44,7 +48,8 @@
     "tsup": "^7.2.0",
     "typedoc": "^0.25.2",
     "typedoc-plugin-markdown": "^3.16.0",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "yargs": "^17.7.2"
   },
   "prettier": {
     "semi": true,
@@ -55,9 +60,6 @@
     "useTabs": false,
     "arrowParens": "always",
     "endOfLine": "lf"
-  },
-  "dependencies": {
-    "yargs": "^17.7.2"
   },
   "files": [
     "./src/index.ts",
